@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(php artisan make:migration:*)",
+      "Bash(find:*)",
+      "Bash(chmod:*)",
+      "Bash(npm start)",
+      "Bash(npm run build:*)",
+      "Bash(npx eslint:*)",
+      "Bash(node:*)",
+      "Bash(php artisan serve:*)",
+      "Bash(php artisan config:clear:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
